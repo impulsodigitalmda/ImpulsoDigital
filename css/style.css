@@ -84,7 +84,7 @@ img, svg { display: block; max-width: 100%; }
 .local-icon { width: 1em; height: 1em; object-fit: contain; flex: 0 0 auto; display: inline-block; vertical-align: -0.12em; }
 .btn .local-icon { width: 17px; height: 17px; }
 .header-cta .local-icon { width: 17px; height: 17px; }
-.node-icon .local-icon { width: 20px; height: 20px; }
+.node-icon .local-icon { width: 24px; height: 24px; }
 .card-icon .local-icon { width: 21px; height: 21px; }
 .solution-icon .local-icon { width: 48px; height: 48px; }
 .step-icon .local-icon { width: 21px; height: 21px; }
@@ -231,15 +231,15 @@ section { position: relative; padding: 88px 0; }
 @keyframes node-float { 50% { transform: translateY(-7px); } }
 .sat-node strong { margin-top: 6px; font-family: var(--font-display); font-size: 13px; }
 .sat-node small { color: var(--muted-2); font-size: 9px; font-weight: 700; }
-.node-icon { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 11px; background: var(--blue-soft); color: var(--blue-2); font-size: 17px; }
-.node-icon.whatsapp-real { color: var(--wa); background: rgba(37,211,102,.12); }
+.node-icon { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 11px; background: linear-gradient(135deg, rgba(47,124,255,.32), rgba(47,124,255,.12)); box-shadow: inset 0 0 0 1px rgba(90,162,255,.4), 0 0 18px rgba(47,124,255,.28); color: var(--blue-2); font-size: 17px; }
+.node-icon.whatsapp-real { color: var(--wa); background: linear-gradient(135deg, rgba(37,211,102,.34), rgba(37,211,102,.12)); box-shadow: inset 0 0 0 1px rgba(37,211,102,.45), 0 0 18px rgba(37,211,102,.28); }
 .solution-icon.whatsapp-real { color: var(--wa); }
 .sat-web { left: 6%; top: 7%; }
 .sat-whatsapp { right: 6%; top: 7%; }
 .sat-pedidos { left: 6%; bottom: 7%; }
 .sat-gestion { right: 6%; bottom: 7%; }
-.sat-pedidos .node-icon { background: var(--orange-soft); color: var(--orange-2); }
-.sat-gestion .node-icon { background: rgba(255,255,255,.07); color: var(--white); }
+.sat-pedidos .node-icon { background: linear-gradient(135deg, rgba(255,122,26,.34), rgba(255,122,26,.12)); box-shadow: inset 0 0 0 1px rgba(255,154,61,.45), 0 0 18px rgba(255,122,26,.28); }
+.sat-gestion .node-icon { background: linear-gradient(135deg, rgba(160,110,255,.34), rgba(160,110,255,.12)); box-shadow: inset 0 0 0 1px rgba(196,161,255,.45), 0 0 18px rgba(160,110,255,.28); }
 .pulse-dot { position: absolute; width: 8px; height: 8px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 16px rgba(255,122,26,.7); opacity: .8; }
 .pulse-one { left: 31%; top: 38%; animation: pulse-move 4.5s ease-in-out infinite; }
 .pulse-two { right: 31%; bottom: 38%; background: var(--blue); box-shadow: 0 0 16px rgba(47,124,255,.7); animation: pulse-move 4.5s ease-in-out infinite reverse; animation-delay: -1.8s; }

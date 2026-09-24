@@ -15,14 +15,39 @@
 <meta content="https://impulsodigitalpro.com.ar/" property="og:url"/>
 <meta content="Impulso Digital — Diseño web, WhatsApp y automatizaciones" property="og:title"/>
 <meta content="Conectamos tu web, WhatsApp, catálogo y gestión de pedidos en un solo sistema." property="og:description"/>
-<meta content="https://impulsodigitalpro.com.ar/assets/images/logo.jpg" property="og:image"/>
-<meta content="summary" name="twitter:card"/>
+<meta content="https://impulsodigitalpro.com.ar/assets/images/og.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Impulso Digital: tu web, WhatsApp y pedidos trabajando juntos" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Impulso Digital — Tu web, WhatsApp y pedidos trabajando juntos" name="twitter:title"/>
+<meta content="Web, WhatsApp y pedidos conectados para negocios de la costa. Desde $100.000." name="twitter:description"/>
+<meta content="https://impulsodigitalpro.com.ar/assets/images/og.png" name="twitter:image"/>
 <meta content="vfqffnvw6rqsjheb93q4hkur2v3uor" name="facebook-domain-verification"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Impulso Digital",
+  "url": "https://impulsodigitalpro.com.ar/",
+  "image": "https://impulsodigitalpro.com.ar/assets/images/og.png",
+  "logo": "https://impulsodigitalpro.com.ar/assets/images/logo.jpg",
+  "description": "Diseño web, WhatsApp ordenado, gestión de pedidos y automatizaciones con IA para negocios de la costa bonaerense.",
+  "email": "contacto@impulsodigitalpro.com.ar",
+  "telephone": "+54 9 2233 03-3185",
+  "founder": { "@type": "Person", "name": "Diego Almaraz" },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mar de Ajó",
+    "addressRegion": "Buenos Aires",
+    "addressCountry": "AR"
+  },
+  "areaServed": "Costa Atlántica, Buenos Aires, Argentina",
+  "sameAs": ["https://www.instagram.com/impulsodigitalmda"]
+}
+</script>
 
-
-
-
-  <!-- Íconos e imágenes locales: reemplazá archivos dentro de assets/ manteniendo el mismo nombre. -->
+<!-- Íconos e imágenes locales: reemplazá archivos dentro de assets/ manteniendo el mismo nombre. -->
 <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
@@ -43,13 +68,10 @@
 <a class="nav-link" href="#soluciones">Soluciones</a>
 <a class="nav-link" href="#proceso">Proceso</a>
 <a class="nav-link" href="#ejemplos">Ejemplos</a>
-<a class="btn btn-primary btn-sm nav-cta" href="#contacto">Hablemos</a>
+<a class="nav-link" href="#quien">Quién soy</a>
+<a class="btn btn-primary btn-sm nav-cta" href="#contacto">Ordenar mi negocio</a>
 </nav>
 <div class="header-actions">
-<a class="header-cta" href="https://wa.me/5492233033185" rel="noopener" target="_blank">
-<img alt="" aria-hidden="true" class="local-icon" src="assets/icons/whatsapp.svg"/>
-<span>WhatsApp</span>
-</a>
 <button aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú" class="nav-toggle" id="navToggle" type="button">
 <span></span><span></span><span></span>
 </button>
@@ -69,7 +91,7 @@
             Tu web, WhatsApp y pedidos <span class="text-gradient">trabajando juntos.</span>
 </h1>
 <p class="hero-subtitle">
-            Conectamos tu web, WhatsApp y pedidos para que pierdas menos consultas y trabajes con más orden.
+            Tu cliente te escribe, el pedido queda ordenado en un panel y le avisamos en cada paso. Sin planillas, sin mensajes perdidos.
           </p>
 <div class="hero-actions">
 <a class="btn btn-primary magnetic" href="#contacto">
@@ -81,52 +103,40 @@
               Hablar por WhatsApp
             </a>
 </div>
-<div aria-label="Servicios conectados" class="hero-mini-proof">
-<span><img alt="" aria-hidden="true" class="local-icon" src="assets/icons/web.svg"/> Web</span>
-<span><img alt="" aria-hidden="true" class="local-icon" src="assets/icons/whatsapp.svg"/> WhatsApp</span>
-<span><img alt="" aria-hidden="true" class="local-icon" src="assets/icons/automation.svg"/> Automatización</span>
-<span><img alt="" aria-hidden="true" class="local-icon" src="assets/icons/gestion.svg"/> Gestión</span>
+<p class="hero-price">Desde <strong>$100.000</strong> · Empezamos por la pieza que más te duele.</p>
+<ol aria-label="Cómo viaja un pedido" class="hero-flow">
+<li>Menú</li>
+<li>Pedido</li>
+<li>En preparación</li>
+<li>Aviso al cliente</li>
+</ol>
+</div>
+<div aria-label="Ejemplo: pedido por WhatsApp y panel de pedidos" class="hero-visual reveal is-visible" role="img">
+<div class="phone-stage" id="systemShell">
+<span class="stage-tag">VISTA DE EJEMPLO</span>
+<div aria-hidden="true" class="phone">
+<div class="phone-notch"></div>
+<div class="wa-head">
+<span class="wa-avatar">DP</span>
+<span class="wa-who"><strong>Rotisería Don Pepe</strong><small>en línea</small></span>
+</div>
+<div class="wa-chat">
+<div class="bubble bubble-out bubble-menu" style="--d: .5s">
+<b>Menú de hoy</b>
+<span>Milanesa napo <i>$9.250</i></span>
+<span>Pollo al spiedo <i>$12.000</i></span>
+<em>22:40</em>
+</div>
+<div class="bubble bubble-in" style="--d: 1.6s">2 milanesas napo con papas 🙌<em>22:40</em></div>
+<div class="bubble bubble-out" style="--d: 2.7s">¡Recibimos tu pedido <b>#128</b>! Total $18.500 ✅<em>22:41</em></div>
+<div class="bubble bubble-out bubble-status" style="--d: 3.9s">🍳 En preparación. Te avisamos cuando salga.<em>22:52</em></div>
 </div>
 </div>
-<div aria-label="Sistema digital conectado" class="hero-visual reveal is-visible">
-<div class="system-shell" id="systemShell">
-<div class="system-topbar">
-<div aria-hidden="true" class="window-dots"><span></span><span></span><span></span></div>
-<span class="system-status"><span></span> Sistema activo</span>
-</div>
-<div class="system-canvas">
-<svg aria-hidden="true" class="connector-svg" preserveaspectratio="xMidYMid meet" viewbox="0 0 520 420">
-<defs>
-<lineargradient id="lineBlue" x1="0" x2="1"><stop stop-color="#2f7cff"></stop><stop offset="1" stop-color="#7fb1ff"></stop></lineargradient>
-<lineargradient id="lineOrange" x1="0" x2="1"><stop stop-color="#ff7a1a"></stop><stop offset="1" stop-color="#ffb066"></stop></lineargradient>
-</defs>
-<path class="connector connector-a" d="M230,175 C175,125 138,102 92,84" stroke="url(#lineBlue)"></path>
-<path class="connector connector-b" d="M290,175 C345,125 382,102 428,84" stroke="url(#lineOrange)"></path>
-<path class="connector connector-c" d="M230,245 C175,295 138,318 92,336" stroke="url(#lineOrange)"></path>
-<path class="connector connector-d" d="M290,245 C345,295 382,318 428,336" stroke="url(#lineBlue)"></path>
-</svg>
-<div aria-label="Impulso Digital" class="hub-node">
-<span class="hub-ring"></span>
-<span class="hub-mark"><img alt="" aria-hidden="true" class="hub-logo-img" src="assets/images/logo.webp"/></span>
-</div>
-<div class="sat-node sat-web" style="--delay: .05s">
-<span class="node-icon"><img alt="" aria-hidden="true" class="local-icon" src="assets/icons/web.svg"/></span>
-<strong>Web</strong><small>Presencia</small>
-</div>
-<div class="sat-node sat-whatsapp" style="--delay: .15s">
-<span class="node-icon whatsapp-real"><img alt="" aria-hidden="true" class="local-icon" src="assets/icons/whatsapp.svg"/></span>
-<strong>WhatsApp</strong><small>Atención</small>
-</div>
-<div class="sat-node sat-pedidos" style="--delay: .25s">
-<span class="node-icon"><img alt="" aria-hidden="true" class="local-icon" src="assets/icons/pedidos.svg"/></span>
-<strong>Pedidos</strong><small>Flujo</small>
-</div>
-<div class="sat-node sat-gestion" style="--delay: .35s">
-<span class="node-icon"><img alt="" aria-hidden="true" class="local-icon" src="assets/icons/gestion.svg"/></span>
-<strong>Gestión</strong><small>Control</small>
-</div>
-<div aria-hidden="true" class="pulse-dot pulse-one"></div>
-<div aria-hidden="true" class="pulse-dot pulse-two"></div>
+<div aria-hidden="true" class="panel-card">
+<div class="panel-top"><span>PEDIDOS DE HOY</span><span class="panel-live"><i></i> en vivo</span></div>
+<div class="panel-row is-new" style="--d: 2.9s"><b>#128</b><span>Milanesa napo ×2</span><em class="tag tag-prep">En preparación</em></div>
+<div class="panel-row"><b>#127</b><span>Pollo al spiedo</span><em class="tag tag-done">Entregado</em></div>
+<div class="panel-row"><b>#126</b><span>Empanadas ×12</span><em class="tag tag-done">Entregado</em></div>
 </div>
 </div>
 </div>
@@ -136,13 +146,12 @@
 <div class="container">
 <div class="section-head reveal">
 <span class="section-kicker">SOLUCIONES</span>
-<h2 class="section-heading">Cuatro piezas.<br/><span class="outline-text">Un solo sistema.</span></h2>
+<h2 class="section-heading">Cuatro piezas.<br/><span class="text-gradient">Un solo sistema.</span></h2>
 <p>Cada solución funciona por separado, pero el verdadero cambio aparece cuando se conectan entre sí.</p>
 </div>
 <div class="solutions-list">
 <article class="solution-row reveal" data-accent="blue">
 <div class="solution-visual">
-<span class="solution-number">
 <span class="solution-icon"><span aria-hidden="true" class="local-icon icon-mask icon-web"></span></span>
 </div>
 <div class="solution-copy">
@@ -158,7 +167,6 @@
 </article>
 <article class="solution-row reveal" data-accent="orange">
 <div class="solution-visual">
-<span class="solution-number">
 <span class="solution-icon whatsapp-real"><span aria-hidden="true" class="local-icon icon-mask icon-whatsapp"></span></span>
 </div>
 <div class="solution-copy">
@@ -174,33 +182,31 @@
 </article>
 <article class="solution-row reveal" data-accent="blue">
 <div class="solution-visual">
-<span class="solution-number">
 <span class="solution-icon"><span aria-hidden="true" class="local-icon icon-mask icon-pedidos"></span></span>
 </div>
 <div class="solution-copy">
-<span class="solution-label">OPERACIÓN</span>
-<h3>Pedidos</h3>
-<p>Un lugar único donde ver qué se pidió, en qué estado está y qué falta entregar, sin planillas sueltas.</p>
+<span class="solution-label">PEDIDOS · STOCK · CLIENTES</span>
+<h3>Operación</h3>
+<p>Un solo panel para ver qué se pidió, en qué estado está, qué queda en stock y quién es cada cliente. Sin planillas sueltas.</p>
 <ul class="solution-points">
 <li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Estados claros: nuevo, en curso, entregado</li>
 <li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Aviso automático a tu cliente en cada paso</li>
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Historial ordenado por fecha y cliente</li>
+<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Stock e historial de clientes en el mismo lugar</li>
 </ul>
 </div>
 </article>
 <article class="solution-row reveal" data-accent="orange">
 <div class="solution-visual">
-<span class="solution-number">
-<span class="solution-icon"><span aria-hidden="true" class="local-icon icon-mask icon-gestion"></span></span>
+<span class="solution-icon"><span aria-hidden="true" class="local-icon icon-mask icon-automation"></span></span>
 </div>
 <div class="solution-copy">
-<span class="solution-label">CONTROL</span>
-<h3>Gestión</h3>
-<p>Clientes, stock y tareas internas en un solo panel, para que nada dependa de la memoria de una sola persona.</p>
+<span class="solution-label">ASISTENTE VIRTUAL</span>
+<h3>Automatización e IA</h3>
+<p>Un asistente que contesta lo de siempre y tareas repetitivas que se hacen solas, para que nada dependa de tu memoria.</p>
 <ul class="solution-points">
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Panel simple, sin curva de aprendizaje</li>
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Automatizaciones para tareas repetitivas</li>
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Datos reales para decidir con criterio</li>
+<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Asistente virtual para las consultas más frecuentes</li>
+<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Avisos y recordatorios automáticos</li>
+<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Tareas repetitivas resueltas sin que las hagas vos</li>
 </ul>
 </div>
 </article>
@@ -211,60 +217,99 @@
 <div class="container">
 <div class="section-head centered reveal">
 <span class="section-kicker">PROCESO</span>
-<h2 class="section-heading">De problema a sistema.</h2>
-<p>Sin paquetes cerrados: cada sistema se arma a partir de lo que tu negocio necesita de verdad.</p>
+<h2 class="section-heading">De problema a sistema, <span class="text-gradient">en semanas.</span></h2>
+<p>Empezamos por una sola pieza y sumamos el resto cuando lo necesites. Si solo querés tu WhatsApp ordenado, arrancamos por ahí.</p>
 </div>
 <ol class="process-timeline">
 <li class="process-step reveal">
+<span class="step-when">SEMANA 1</span>
 <h3>Diagnóstico</h3>
-<p>Analizamos tu negocio y detectamos qué es lo que realmente hay que resolver primero.</p>
+<p>Vemos cómo te llegan hoy las consultas y los pedidos, y elegimos la pieza que más duele.</p>
+<p class="step-out"><strong>Te llevás:</strong> un plan simple con qué hacer primero y cuánto cuesta.</p>
 </li>
 <li class="process-step reveal">
+<span class="step-when">SEMANA 2</span>
 <h3>Desarrollo</h3>
-<p>Construimos cada pieza — web, WhatsApp, pedidos, gestión — integrada con el resto.</p>
+<p>Construimos esa primera pieza, integrada con lo que ya usás, y la probamos con vos.</p>
+<p class="step-out"><strong>Te llevás:</strong> tu WhatsApp o tu web funcionando, listo para usar.</p>
 </li>
 <li class="process-step reveal">
+<span class="step-when">30 DÍAS DESPUÉS</span>
 <h3>Acompañamiento</h3>
-<p>Ponemos todo en marcha y seguimos cerca para que el sistema siga funcionando.</p>
+<p>Quedamos cerca el primer mes para ajustar lo que haga falta y sumar la próxima pieza si querés.</p>
+<p class="step-out"><strong>Te llevás:</strong> ajustes incluidos y un sistema que ya funciona solo.</p>
 </li>
 </ol>
+<div class="price-band reveal">
+<div class="price-figure"><small>PROYECTOS DESDE</small><strong>$100.000</strong></div>
+<p>Cada proyecto arranca por una pieza y se cotiza después del diagnóstico, con el precio cerrado antes de empezar.</p>
+<a class="btn btn-primary" href="#contacto">Pedir presupuesto <img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/arrow-right.svg"/></a>
+</div>
 </div>
 </section>
 <section class="cases-section" id="ejemplos">
 <div class="container">
 <div class="section-head centered reveal">
-<span class="section-kicker">EJEMPLOS DE USO</span>
-<h2 class="section-heading">Así se ve en tu rubro.</h2>
-<p>Escenarios típicos de cómo aplicamos estos sistemas. Son ejemplos ilustrativos, no casos de clientes.</p>
+<span class="section-kicker">EN LA PRÁCTICA</span>
+<h2 class="section-heading">Así se ve <span class="text-gradient">en tu rubro.</span></h2>
+<p>Escenas armadas con datos de ejemplo, para que veas cómo se vive en el día a día.</p>
+</div>
+<div class="walk reveal">
+<div class="walk-head"><span class="case-tag">UN PEDIDO, DE PUNTA A PUNTA</span><h3>Así entra un pedido de milanesa a las 22:40</h3></div>
+<ol class="walk-steps">
+<li><time>22:40</time><strong>Entra por WhatsApp</strong><span>El cliente elige del menú y el pedido llega ordenado, no en un audio.</span></li>
+<li><time>22:41</time><strong>Aparece en el panel</strong><span>Queda como “nuevo”, con detalle y total. Nadie lo anota.</span></li>
+<li><time>22:52</time><strong>Pasa a preparación</strong><span>Un toque en el panel y el cliente recibe el aviso solo.</span></li>
+<li><time>23:15</time><strong>Sale el delivery</strong><span>Otro aviso automático. A la mañana, todo queda en el historial.</span></li>
+</ol>
 </div>
 <div class="cases-grid">
 <article class="case-card reveal">
 <span class="case-tag">INMOBILIARIA</span>
-<h3>Mensajes automáticos simples y efectivos</h3>
-<p>Respuestas automáticas a las consultas más frecuentes por WhatsApp, para no estar pendiente del celular todo el día.</p>
-<ul class="solution-points">
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Menos tiempo respondiendo lo mismo</li>
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Consultas ordenadas para atender después</li>
-</ul>
+<h3>Respuestas automáticas por WhatsApp</h3>
+<div aria-hidden="true" class="scene scene-chat">
+<div class="bubble bubble-in">Hola, ¿el depto de la Costanera sigue disponible?</div>
+<div class="bubble bubble-out">¡Hola! Sí, sigue disponible 🏠 Te paso fotos, precio y cómo coordinar una visita.</div>
+<div class="scene-chips"><span>Ver fotos</span><span>Coordinar visita</span></div>
+</div>
+<p>Las preguntas de siempre se responden solas. Vos atendés a los que ya quieren visitar.</p>
 </article>
 <article class="case-card reveal">
 <span class="case-tag">ROTISERÍA</span>
-<h3>Menú y pedidos para delivery</h3>
-<p>Un menú online conectado a un sistema de pedidos rápido, para dedicar el tiempo a preparar y despachar.</p>
-<ul class="solution-points">
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Pedidos claros, sin errores de anotación</li>
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Menos tiempo entre el pedido y el despacho</li>
-</ul>
+<h3>Menú online y pedidos para delivery</h3>
+<div aria-hidden="true" class="scene scene-ticket">
+<div class="ticket-head"><b>PEDIDO #128</b><span>22:40</span></div>
+<div class="ticket-line"><span>2× Milanesa napo</span><i>$18.500</i></div>
+<div class="ticket-line"><span>1× Papas fritas</span><i>incl.</i></div>
+<div class="ticket-line ticket-note"><span>Delivery · sin cebolla</span></div>
+<div class="ticket-states"><span>Nuevo</span><span class="is-on">En preparación</span><span>Entregado</span></div>
+</div>
+<p>Pedidos claros y sin errores de anotación, con menos tiempo entre el pedido y el despacho.</p>
 </article>
 <article class="case-card reveal">
 <span class="case-tag">HOTEL</span>
-<h3>Respuestas automáticas a huéspedes</h3>
-<p>Un sistema que responde las preguntas recurrentes, para que al equipo lleguen los clientes que realmente quieren hospedarse.</p>
-<ul class="solution-points">
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Atención inmediata, a cualquier hora</li>
-<li><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/check.svg"/> Consultas más calificadas para el equipo</li>
-</ul>
+<h3>Asistente para huéspedes</h3>
+<div aria-hidden="true" class="scene scene-chat">
+<div class="bubble bubble-in">¿Tienen pileta y aceptan mascotas?</div>
+<div class="bubble bubble-out">Tenemos pileta climatizada y aceptamos mascotas 🐾 ¿Para qué fechas buscás?</div>
+<div class="bubble bubble-in">10 al 14 de enero, 2 adultos</div>
+<div class="bubble bubble-out">Perfecto, le paso tu consulta al equipo con esos datos ✅</div>
+</div>
+<p>Atención inmediata a cualquier hora, y al equipo llegan consultas con fechas y personas ya cargadas.</p>
 </article>
+</div>
+</div>
+</section>
+<section class="about-section" id="quien">
+<div class="container about-inner">
+<div class="about-photo reveal">
+<img alt="Diego Almaraz, de Impulso Digital" height="720" loading="lazy" src="assets/images/diego.webp" width="720"/>
+</div>
+<div class="about-copy reveal">
+<span class="section-kicker">QUIÉN ESTÁ DETRÁS</span>
+<h2 class="section-heading">Trabajo desde <span class="text-gradient">Mar de Ajó</span> con negocios de la costa.</h2>
+<p>Soy Diego Almaraz. Diseño y armo tu web, tu WhatsApp y tus pedidos, y me quedo cerca después para que todo siga funcionando. Hablás conmigo de principio a fin.</p>
+<a class="about-link" href="https://www.instagram.com/impulsodigitalmda" rel="noopener" target="_blank"><span aria-hidden="true" class="local-icon icon-mask icon-instagram"></span> @impulsodigitalmda</a>
 </div>
 </div>
 </section>
@@ -273,12 +318,7 @@
 <div class="contact-copy reveal">
 <span class="section-kicker">CONTACTO</span>
 <h2 class="section-heading">Empecemos a construir <span class="text-gradient">tu sistema.</span></h2>
-<p>Contanos qué necesitás resolver. Te respondemos con un camino claro, sin vueltas.</p>
-<a class="contact-whatsapp-card magnetic" href="https://wa.me/5492233033185" rel="noopener" target="_blank">
-<span class="wa-icon"><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/whatsapp.svg"/></span>
-<span class="wa-text"><strong>¿Preferís hablar directo?</strong><small>Escribinos por WhatsApp</small></span>
-<img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/arrow-up-right.svg"/>
-</a>
+<p>Contanos qué necesitás resolver. Te respondemos con un camino claro, sin vueltas. Los proyectos arrancan desde $100.000.</p>
 <dl class="contact-details">
 <div><dt><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/email.svg"/> Email</dt><dd><a href="mailto:contacto@impulsodigitalpro.com.ar">contacto@impulsodigitalpro.com.ar</a></dd></div>
 <div><dt><img alt="" aria-hidden="true" class="local-icon" loading="lazy" src="assets/icons/location.svg"/> Ubicación</dt><dd>Mar de Ajó, Buenos Aires, Argentina</dd></div>
@@ -316,19 +356,19 @@
 <span aria-hidden="true" class="brand-mark"><img alt="" aria-hidden="true" class="brand-logo-img" src="assets/images/logo.svg"/></span>
 <span class="brand-name">Impulso Digital</span>
 </a>
-<p>Soluciones Digitales.</p>
+<p>Web, WhatsApp y automatizaciones para negocios de la costa. Mar de Ajó, Buenos Aires.</p>
 </div>
 <div class="footer-col">
 <span class="footer-heading">Navegación</span>
 <a href="#soluciones">Soluciones</a>
 <a href="#proceso">Proceso</a>
 <a href="#ejemplos">Ejemplos</a>
+<a href="#quien">Quién soy</a>
 <a href="#contacto">Contacto</a>
 </div>
 <div class="footer-col">
 <span class="footer-heading">Contacto</span>
 <a href="mailto:contacto@impulsodigitalpro.com.ar"><span aria-hidden="true" class="local-icon icon-mask icon-email"></span> Email</a>
-<a href="https://wa.me/5492233033185" rel="noopener" target="_blank"><span aria-hidden="true" class="local-icon icon-mask icon-whatsapp"></span> WhatsApp</a>
 <a href="https://www.instagram.com/impulsodigitalmda" rel="noopener" target="_blank"><span aria-hidden="true" class="local-icon icon-mask icon-instagram"></span> Instagram</a>
 </div>
 </div>
